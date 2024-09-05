@@ -1,0 +1,75 @@
+export const lineChartData = {
+  labels: [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ],
+  datasets: [
+    {
+      label: "Revenue",
+      data: [
+        1200,
+        1100,
+        1000,
+        1250,
+        1150,
+        1350,
+        1400,
+        1300,
+        1200,
+        1600,
+        ,
+        1900,
+        1700,
+        1650,
+        1850,
+      ],
+      borderColor: "blue",
+      backgroundColor: "rgba(0, 0, 255, 0.2)",
+    },
+    {
+      label: "Sales",
+      data: [
+        1280, 1000, 1100, 1350, 1150, 1400, 1900, 1200, 1800, 1100, 1400, 1700,
+        1900, 1800, 1600,
+      ],
+      borderColor: "orange",
+      backgroundColor: "rgba(255, 165, 0, 0.2)",
+    },
+  ],
+};
+
+export const sampleData = {
+  labels: ["January", "February", "March", "April"],
+  datasets: [
+    {
+      label: "Sales",
+      data: [20, 35, 40, 55],
+      borderColor: "rgb(75, 192, 192)",
+      backgroundColor: "rgba(75, 192, 192, 0.2)",
+      pointHoverRadius: 6,
+      pointHoverBackgroundColor: "blue",
+      pointHoverBorderColor: "white",
+      pointHoverBorderWidth: 2,
+    },
+    {
+      label: "Revenue",
+      data: [30, 50, 60, 80],
+      borderColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgba(255, 99, 132, 0.2)",
+      pointHoverRadius: 6,
+      pointHoverBackgroundColor: "blue",
+      pointHoverBorderColor: "white",
+      pointHoverBorderWidth: 2,
+    },
+  ],
+};
