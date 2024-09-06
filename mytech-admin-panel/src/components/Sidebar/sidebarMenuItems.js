@@ -57,7 +57,7 @@ const SidebarMenuItems = ({ color = "#000" }) => {
     ];
   
     return (
-      <ul className={`space-y-4  `}>
+      <ul className={`space-y-4`}>
         {sidebarItems.map((item, index) => (
           <SidebarItem key={index} item={item} color={color} />
         ))}
