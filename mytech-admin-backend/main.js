@@ -21,7 +21,7 @@ app.use(
 connectDB();
 
 app.use(express.json());
-
+  
 app.use("/api/products", productRoutes);
 app.use("/api/categories", categoryRoutes);
 
